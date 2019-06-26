@@ -10,11 +10,12 @@
 * Get Meteor React app up and running
 
 # Todo
+* Set up routing
+* Set up authentication
 * PostCard
 * Navigation
 * Post
 * PostsList
-* Authenticate
 * Create new post
 * Edit post
 * Search
