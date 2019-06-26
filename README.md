@@ -8,10 +8,11 @@
 
 # Completed
 * Get Meteor React app up and running
+* Set up routing
 
 # Todo
-* Set up routing
 * Set up authentication
+* 
 * PostCard
 * Navigation
 * Post

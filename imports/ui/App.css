@@ -3,6 +3,18 @@ body {
   font-family: sans-serif;
 }
 
+/* Edit Post */
+
+.edit-post {
+  margin: 100px;
+}
+
+.edit-post form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* PostCard */
 
 .post-card {

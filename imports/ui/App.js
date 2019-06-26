@@ -5,6 +5,7 @@ import Header from './Header'
 import PostsList from './PostsList'
 import Post from './Post'
 import About from './About'
+import EditPost from './EditPost'
 
 export default class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends Component {
           <Route exact path='/' component={PostsList} />
           <Route exact path='/about' component={About} />
           <Route exact path='/post' component={Post} />
+          <Route exact path='/edit' component={EditPost} />
         </Switch>
       </div>
     )
