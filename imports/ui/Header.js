@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <div className='header'>
         <ul>
-        <li>
+          <li>
             <Link to='/'>
               Home
             </Link>

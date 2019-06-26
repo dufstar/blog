@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import { Switch, Route } from 'react-router-dom'
+import './App.css'
+import Header from './Header'
 import PostsList from './PostsList'
 import Post from './Post'
-import Header from './Header'
-import './App.css'
-import { Switch, Route } from 'react-router-dom'
+import About from './About'
 
 export default class App extends Component {
   render() {
@@ -12,7 +13,8 @@ export default class App extends Component {
         <Header />
         <Switch>
           <Route exact path='/' component={PostsList} />
-          <Route exact path='/about' component={Post} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/post' component={Post} />
         </Switch>
       </div>
     )
